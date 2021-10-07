@@ -1,8 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">首頁</router-link> |
+      <router-link to="/about">關於我們</router-link> |
+      <router-link to="/">產品介紹</router-link> |
+      <router-link to="/service">客戶服務</router-link> |
+      <router-link to="/viedo">Youtube 教學</router-link> |
+      <router-link to="/shop">哪裡購買</router-link> |
     </div>
     <router-view/>
   </div>
